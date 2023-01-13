@@ -8,4 +8,5 @@
     ntp_timezone: 'Etc/Universal' # Time Zone Link
     vault_key: 'password'
     # snapshots: true
+    # ssh_passphrase: 'vault_key'
 ```

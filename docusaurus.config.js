@@ -7,12 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Warhorse',
-  tagline: 'Warhorse',
+  tagline: 'Infrastructure Automation',
   url: 'https://war-horse.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/warhorse/docs/blob/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/warhorse/docs/blob/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -60,12 +60,13 @@ const config = {
         title: 'Warhorse',
         logo: {
           alt: 'Warhorse Logo',
-          src: 'img/logo_full.svg',
+          src: 'img/logo_black.png',
+          srcDark: 'img/logo_white.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'introduction',
             position: 'left',
             label: 'Docs',
           },
@@ -84,8 +85,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Getting Started',
-                to: '/docs/intro',
+                label: 'Introduction',
+                to: '/docs/introduction',
               },
             ],
           },

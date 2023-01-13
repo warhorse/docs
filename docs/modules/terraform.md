@@ -11,4 +11,5 @@
     bucket_secret_key: ""
     digitalocean_token: ""
     # aws_profile: "profile_name"
+    # digitalocean_project: "Warhorse"
 ```
