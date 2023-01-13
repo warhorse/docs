@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Warhorse',
-  tagline: 'Infrastructure Automation',
+  tagline: 'Infrastructure Automation for Security Assessments',
   url: 'https://war-horse.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',

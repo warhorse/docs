@@ -99,7 +99,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Redteam Infrastructure Automation"
+      description="Infrastructure Automation for Security Assessments"
     >
       <HomepageHeader />
     </Layout>
