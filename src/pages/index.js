@@ -79,7 +79,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className={clsx("button button--primary button--lg", styles.button)}
-            to="/installation/linux"
+            to="/docs/installation/linux"
           >
             Get Started
           </Link>
