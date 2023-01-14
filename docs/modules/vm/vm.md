@@ -1,7 +1,0 @@
-# Virtual Machine
-
-
-## Firewall
-
-
-## Cobaltstrike
